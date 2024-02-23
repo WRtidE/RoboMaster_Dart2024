@@ -1,0 +1,80 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Akaset WRtidE, Akaset, LIC=21E4T-RT1AL-01AP1-CQRIM-2UWX1-RC4PR
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  F:\DownLoad\Keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+D:\rm2024\Dart_2024\MDK-ARM\Dart_2024.uvprojx
+Project File Date:  01/24/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'F:\DownLoad\Keil5\ARM\ARMCC\Bin'
+Build target 'Dart_2024'
+compiling Friction_task.c...
+./Device/motor.h(47): warning:  #1295-D: Deprecated declaration motor_calc - give arg types
+  void motor_calc();
+./Device/motor.h(48): warning:  #1295-D: Deprecated declaration motor_init - give arg types
+  void motor_init();
+Task\Friction_task.c(21): warning:  #1295-D: Deprecated declaration Friction_init - give arg types
+  static void Friction_init();
+Task\Friction_task.c(22): warning:  #1295-D: Deprecated declaration Friction_adjust - give arg types
+  static void Friction_adjust();
+Task\Friction_task.c(23): warning:  #1295-D: Deprecated declaration mode_choose - give arg types
+  static void mode_choose(); 
+Task\Friction_task.c(24): warning:  #1295-D: Deprecated declaration calc_and_send - give arg types
+  static void calc_and_send();
+Task\Friction_task.c(25): warning:  #1295-D: Deprecated declaration magazine_task - give arg types
+  static void magazine_task();
+Task\Friction_task.c(26): warning:  #1295-D: Deprecated declaration speed_ramp - give arg types
+  static void speed_ramp();
+Task\Friction_task.c(258): warning:  #1-D: last line of file ends without a newline
+  }
+Task\Friction_task.c: 9 warnings, 0 errors
+linking...
+Program Size: Code=13644 RO-data=632 RW-data=212 ZI-data=19500  
+FromELF: creating hex file...
+"Dart_2024\Dart_2024.axf" - 0 Error(s), 9 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.2.17.1.pack
+                Keil.STM32F4xx_DFP.2.17.1
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Dart_2024
+  F:\DownLoad\Keil5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include
+  F:\DownLoad\Keil5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
